@@ -22,22 +22,21 @@
 	
 	<div id="main-container" class="container">
 		<section class="main-section">
-		<form>
-  			Name:<br>
-  			<input type="text" name="Name"><br>
-  			Email:<br>
-  			<input type="Email" name="Email"><br>
-  			Message:<br>
-  			<input type="text" name="Message">
-			<br>
-  			<input type="submit">
-		</form>
-
-
-
-
-
-
+			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+			<div class="row">
+				<label for="fullname">Your name:</label><br />
+				<input id="fullname" class="input" name="fullname" type="text"/><br />
+			</div>
+			<div class="row">
+				<label for="email">Your email:</label><br />
+				<input id="email" class="input" name="email" type="text"/><br />
+			</div>
+			<div class="row">
+				<label for="message">Your message:</label><br />
+				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+			</div>
+				<input id="submit_button" type="submit" value="Send email" />
+			</form>						
 		</section>
 
 		<section class="connectwithme-section">

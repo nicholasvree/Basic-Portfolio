@@ -47,6 +47,13 @@ h3 {
   background: #4aaaa5;
 }
 
+#fullname{
+  size="30";
+}
+
+#email{
+  size="30" ;
+}
 
 
 nav {
@@ -137,6 +144,3 @@ footer {
   z-index: 99
 }
 
-textarea {
-  height: 200px;
-}
