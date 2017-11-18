@@ -2,7 +2,7 @@
 
 This is a raw HTML and CSS portfolio from scratch.
 
-##Technologies Used
+## Technologies Used
 
 * HTML 
 * CSS
